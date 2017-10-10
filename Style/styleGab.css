@@ -2,4 +2,12 @@ div#coffee{
 	background: url('../Images/BlackCoffee.jpg');
 	height: 350px;
 	color: #FFF;
+	background-size: cover;
+}
+
+div#latte{
+	background: url('../Images/Latte.jpg');
+	height: 350px;
+	color: #FFF;
+	background-size: cover;
 }
