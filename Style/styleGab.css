@@ -11,3 +11,16 @@ div#latte{
 	color: #FFF;
 	background-size: cover;
 }
+
+div#espresso{
+	background: url('../Images/Espresso.jpg');
+	height: 350px;
+	color: #FFF;
+	background-size: cover;
+}
+div#cappucino{
+	background: url('../Images/Cappucino.jpg');
+	height: 350px;
+	color: #FFF;
+	background-size: cover;
+}
