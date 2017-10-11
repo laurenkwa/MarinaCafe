@@ -3,18 +3,83 @@
     text-align:center;
 }
 
-table {
-    
-}
-
 #homecoffee {
-    background-image: url('../images.jpeg');
+    background: url(../Images/BlackCoffee.jpg);
+    height:350px;
+    color:white;
+    background-size:cover;
+    margin-bottom: 10px;
+    padding-top:200px;
+    outline: 2px solid #ccc;
 }
 
 #homebagels {
-    background-image: url();
+    background-image: url(../Images/Snacks.jpg);
+    height: 350px;
+    color: white;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding-top: 200px;
 }
 
 #homedrinks {
-    background-image:url();
+    background-image: url(../Images/SoftDrink.jpg);
+    height: 350px;
+    color: white;
+    background-size: cover;
+    margin-bottom: 10px;
+    padding-top: 200px;
+}
+
+#homemusic {
+    background-image: url(../Images/LightMusic.jpg);
+    height: 350px;
+    color: white;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+#homeentertainment {
+    background-image: url(../Images/Entertainment.jpg);
+    height: 350px;
+    color: white;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+#jtgray {
+    height: 350px;
+    background-size: cover;
+    padding-top: 90px;
+}
+
+#bryanarrowwood {
+    height: 350px;
+    background-size: cover;
+    padding-top: 90px;
+}
+
+#karaokenight {
+    height: 350px;
+    background-size: cover;
+    padding-top: 90px;
+}
+
+#performer1 img{
+    padding-left: 60px;
+    max-height: 280px;
+    max-width: 350px;
+   
+}
+
+#performer2 img {
+    padding-left: 60px;
+    max-height: 280px;
+    max-width: 350px;
+}
+
+#karaokeimg {
+    padding-left: 60px;
+    max-height: 280px;
+    max-width: 350px;
 }
