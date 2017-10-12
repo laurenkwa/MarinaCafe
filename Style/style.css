@@ -83,3 +83,34 @@
     max-height: 280px;
     max-width: 350px;
 }
+
+#coffee{
+    background: url('../Images/BlackCoffee.jpg');
+    height: 350px;
+    color: #FFF;
+    background-size: cover;
+    text-align: left;
+}
+
+#latte{
+    background: url('../Images/Latte.jpg');
+    height: 350px;
+    color: #FFF;
+    background-size: cover;
+    text-align: left;
+}
+
+#espresso{
+    background: url('../Images/Espresso.jpg');
+    height: 350px;
+    color: #FFF;
+    background-size: cover;
+    text-align: left;
+}
+#cappucino{
+    background: url('../Images/Cappucino.jpg');
+    height: 350px;
+    color: #FFF;
+    background-size: cover;
+    text-align: left;
+}
