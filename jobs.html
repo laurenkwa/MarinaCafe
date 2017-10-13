@@ -1,5 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta utf=8>
+    <meta charset="utf-8" />
+    <title>Marina Cafe</title>
+    <link rel="stylesheet" type="text/css" href="Style/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="Style/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src=""></script>
 </head>
 <body>
 	<div>
@@ -10,6 +17,54 @@
 		Marina Cafe is an equal opportunity employer.<br />
 		We celebrate the diversity of our associates!
 	</div>
+    <div>
+        <form class="form-inline" role="form">
+            <div class="form-group">
+                <label for="name:">Name:</label>
+                <input type="name" class="form-control" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email:">Email:</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+                <label for="phone:">Phone:</label>
+                <input type="phone" class="form-control" id="phone">
+            </div> <br />
+            <div class="form-group">
+                Please select the roles you are interested in: <br />
+                <label for="jobs">Bar Associate</label>
+                <input type="checkbox" id="bar">
+                <label for="jobs">Server</label>
+                <input type="checkbox" id="server">
+                <label for="jobs">Cleaning & Maintenance</label>
+                <input type="checkbox" id="clean">
+                <label for="jobs">Manager</label>
+                <input type="checkbox" id="manager">
+            </div> <br />
+            <div class="form-group">
+                Employment Type: 
+                <label for="time">Full Time</label>
+                <input type="checkbox" id="full">
+                <label for="time">Part Time</label>
+                <input type="checkbox" id="part">
+            </div>
+            <div class="form-group">
+                Gender: 
+                <label for="gender">Woman</label>
+                <input type="radio" name="gender" id="woman">
+                <label for="gender">Man</label>
+                <input type="radio" name="gender" id="man">
+            </div> <br />
+            <div class="form-group">
+                <label for="years">Years of Experience:</label>
+                <input id="years">
+            </div> 
+            <div class="form-group">
+                <label for="years">Resumé:</label>
+                <input type="file" id="resume">
+            </div>
+        </form> 
 	<footer>
         <div class ="col-md-9" id="footer">
             <p>Copyright &copy; 2011 Marina Cafe</p>
