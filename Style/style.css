@@ -50,38 +50,39 @@
 #jtgray {
     height: 350px;
     background-size: cover;
-    padding-top: 90px;
+    margin-bottom:-50px;
+   
+
 }
 
 #bryanarrowwood {
     height: 350px;
     background-size: cover;
-    padding-top: 90px;
+    margin-bottom: -50px;
 }
 
 #karaokenight {
     height: 350px;
     background-size: cover;
-    padding-top: 90px;
+
 }
 
 #performer1 img{
-    padding-left: 60px;
     max-height: 280px;
     max-width: 350px;
    
 }
 
 #performer2 img {
-    padding-left: 60px;
+    
     max-height: 280px;
     max-width: 350px;
 }
 
 #karaokeimg {
-    padding-left: 60px;
-    max-height: 280px;
-    max-width: 350px;
+    max-height: 300px;
+    max-width: 280px;
+    padding-top:10px;
 }
 
 #coffee{
@@ -113,4 +114,14 @@
     color: #FFF;
     background-size: cover;
     text-align: left;
+}
+
+#performancecontainer {
+    background: url('../Images/BackgroundPerformers.jpg');
+
+}
+
+#performancetable {
+    background-color:rgba(255,255,255,0.75);
+  
 }
