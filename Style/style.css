@@ -47,6 +47,10 @@
     padding-top: 200px;
 }
 
+#freewifi {
+    background-color: #D5AC8D;
+}
+
 #jtgray {
     height: 350px;
     background-size: cover;
