@@ -1,50 +1,72 @@
 ﻿body {
     margin:auto;
     text-align:center;
+    font-family: Arial;
+    background-color: #170c08;
 }
 
-#homecoffee {
-    background: url(../Images/BlackCoffee.jpg);
-    height:350px;
+header {
+    height: 200px
+}
+
+nav a {
+    color: #E4D1AF;
+    text-decoration: none;
+    padding: 10px
+}
+
+.currentlink {
+    color: #CCA471;
+}
+
+nav a:hover {
+    color: #6b532e;
+    text-decoration: none;
+    padding: 10px
+}
+
+nav {
+    padding-bottom: 10px;
+
+    font-size: 1.2em;
+}
+#header {
+    font-family: 'Alegreya', Garamond, serif;
+    font-size: 10em;
+    color: #E4D1AF;
+    text-decoration: none;
+}
+
+.home {
+    height:350px;  
     color:white;
-    background-size:cover;
     margin-bottom: 10px;
     padding-top:200px;
-    outline: 2px solid #ccc;
+
+}
+#homecoffee {
+    background: url(../Images/BlackCoffee.jpg); 
+    background-size: cover;
 }
 
 #homebagels {
     background-image: url(../Images/Snacks.jpg);
-    height: 350px;
-    color: white;
     background-size: cover;
-    margin-bottom: 10px;
-    padding-top: 200px;
 }
 
 #homedrinks {
     background-image: url(../Images/SoftDrink.jpg);
-    height: 350px;
-    color: white;
     background-size: cover;
-    margin-bottom: 10px;
-    padding-top: 200px;
 }
 
 #homemusic {
     background-image: url(../Images/LightMusic.jpg);
-    height: 350px;
-    color: white;
     background-size: cover;
-    padding-top: 200px;
 }
 
 #homeentertainment {
     background-image: url(../Images/Entertainment.jpg);
-    height: 350px;
-    color: white;
     background-size: cover;
-    padding-top: 200px;
 }
 
 #freewifi {
@@ -71,53 +93,30 @@
 
 }
 
-#performer1 img{
-    max-height: 280px;
-    max-width: 350px;
-   
-}
-
-#performer2 img {
-    
-    max-height: 280px;
-    max-width: 350px;
-}
-
-#karaokeimg {
-    max-height: 300px;
-    max-width: 280px;
-    padding-top:10px;
+.menu {
+    height: 350px;
+    color: #FFF; 
+    text-align: left;
+    text-indent: 10px
 }
 
 #coffee{
     background: url('../Images/BlackCoffee.jpg');
-    height: 350px;
-    color: #FFF;
     background-size: cover;
-    text-align: left;
 }
 
 #latte{
     background: url('../Images/Latte.jpg');
-    height: 350px;
-    color: #FFF;
     background-size: cover;
-    text-align: left;
 }
 
 #espresso{
     background: url('../Images/Espresso.jpg');
-    height: 350px;
-    color: #FFF;
     background-size: cover;
-    text-align: left;
 }
 #cappucino{
     background: url('../Images/Cappucino.jpg');
-    height: 350px;
-    color: #FFF;
     background-size: cover;
-    text-align: left;
 }
 
 #performancecontainer {
