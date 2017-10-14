@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="Style/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="Style/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src=""></script>
+    
 </head>
 <body>
     <header>
@@ -18,64 +18,63 @@
         <a href="performances.html">Performances</a>
         <a href="jobs.html" class="currentlink">Jobs</a>
     </nav>
-    <div id="jobscontainer">
-    	<div id="mainjobs" class="col-md-offset-2 col-md-8" col-md-offset-2>
-    		<p>Are you a college student who would like a part-time job?<br />
-    		Apply at Marina Cafe – we will work around your schedule.
-    		Complete the infomration form at the right to get the application process started.<br />
-    		Or, if you prefer, stop by Marina Cafe anytime and ask about employment opportunities.<br />
-    		Marina Cafe is an equal opportunity employer.
-    		We celebrate the diversity of our associates!</p>
-    	</div>
-        <div>
-            <form class="form-inline" role="form">
-                <div class="form-group">
-                    <label for="name:">Name:</label>
-                    <input type="name" class="form-control" id="name">
+    <div class="jobscontainer col-md-12">
+    	<div id="mainjobs" class="col-md-offset-2 col-md-8 col-md-offset-2">
+            <h1>Work with us!</h1>
+    		<p>Are you looking for a part-time job? 
+    		Apply at Marina Cafe – we will work around your schedule! Marina Cafe is an equal opportunity employer: we celebrate the diversity of our associates!
+            <br />
+            <br />
+    		Complete the information form below to get the application process started, or stop by anytime and ask about employment opportunities.<br />
+    		</p>
+    	
+            <form class="form-inline" action ="job_applications.php" method="post">
+                <div class="form-group col-sm-6">
+                    Name: 
+                    <input class="form-control" id="name" required>
                 </div>
-                <div class="form-group">
-                    <label for="email:">Email:</label>
-                    <input type="email" class="form-control" id="email">
+                <div class="form-group col-sm-6">
+                    Email:
+                    <input type="email" class="form-control" id="email" required>
                 </div>
-                <div class="form-group">
-                    <label for="phone:">Phone:</label>
-                    <input type="phone" class="form-control" id="phone">
+                <div class="form-group col-sm-6">
+                    Phone:
+                    <input type="phone" class="form-control" id="phone" required>
                 </div> <br /> <br />
-                <div class="form-group jobs">
+                <div class="form-group jobs  col-md-12" required>
                     Please select the roles you are interested in: <br />
-                    <label for="jobs">Bar Associate</label>
+                    <label>Bar Associate</label>
                     <input type="checkbox" id="bar">
-                    <label for="jobs">Server</label>
+                    <label>Server</label>
                     <input type="checkbox" id="server">
-                    <label for="jobs">Cleaning & Maintenance</label>
+                    <label>Cleaning & Maintenance</label>
                     <input type="checkbox" id="clean">
-                    <label for="jobs">Manager</label>
+                    <label>Manager</label>
                     <input type="checkbox" id="manager">
                 </div> <br /> <br />
-                <div class="form-group">
-                    Employment Type: 
-                    <label for="time">Full Time</label>
+                <div class="form-group col-md-4">
+                    Employment Type: <br />
+                    <label>Full Time</label>
                     <input type="checkbox" id="full">
-                    <label for="time">Part Time</label>
+                    <label>Part Time</label>
                     <input type="checkbox" id="part">
                 </div>
-                <div class="form-group">
-                    Gender: 
-                    <label for="gender">Woman</label>
+                <div class="form-group col-md-4">
+                    Gender: <br />
+                    <label>Woman</label>
                     <input type="radio" name="gender" id="woman">
-                    <label for="gender">Man</label>
+                    <label>Man</label>
                     <input type="radio" name="gender" id="man">
-                </div> <br />
-                <div class="form-group">
-                    <label for="years">Years of Experience:</label>
+                </div>
+                <div class="form-group col-md-4">
+                    Years of Experience:
+                    <br />
                     <input id="years">
                 </div> 
-                <div class="form-group">
-                    <label for="years">Resumé:</label>
-                    <input type="file" id="resume">
-                </div> <br />
-                <div class="form-group">
-                    <label for="textarea">Comments:</label>
+                <br />
+                <div class="form-group" id="comments" >
+                    Comments:
+                    <br />
                     <textarea name="comments"></textarea>
                 </div>
                 <br />
