@@ -8,6 +8,8 @@
 header {
     height: 200px;
     background-color: #170c08;
+   
+
 }
 
 nav a {
@@ -37,6 +39,12 @@ nav {
     font-size: 10em;
     color: #E4D1AF;
     text-decoration: none;
+}
+
+@media screen and (max-width:992px) {
+    .mobile-only {
+        display:none;
+    }
 }
 
 .home {
