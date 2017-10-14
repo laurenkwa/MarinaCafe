@@ -18,69 +18,71 @@
         <a href="performances.html">Performances</a>
         <a href="jobs.html" class="currentlink">Jobs</a>
     </nav>
-    <div>
-	<div>
-		<p>Are you a college student who would like a part-time job?<br />
-		Apply at Marina Cafe – we will work around your schedule.
-		Complete the infomration form at the right to get the application process started.<br />
-		Or, if you prefer, stop by Marina Cafe anytime and ask about employment opportunities.<br />
-		Marina Cafe is an equal opportunity employer.
-		We celebrate the diversity of our associates!
-	</div>
-    <div>
-        <form class="form-inline" role="form">
-            <div class="form-group">
-                <label for="name:">Name:</label>
-                <input type="name" class="form-control" id="name">
-            </div>
-            <div class="form-group">
-                <label for="email:">Email:</label>
-                <input type="email" class="form-control" id="email">
-            </div>
-            <div class="form-group">
-                <label for="phone:">Phone:</label>
-                <input type="phone" class="form-control" id="phone">
-            </div> <br /> <br />
-            <div class="form-group jobs">
-                Please select the roles you are interested in: <br />
-                <label for="jobs">Bar Associate</label>
-                <input type="checkbox" id="bar">
-                <label for="jobs">Server</label>
-                <input type="checkbox" id="server">
-                <label for="jobs">Cleaning & Maintenance</label>
-                <input type="checkbox" id="clean">
-                <label for="jobs">Manager</label>
-                <input type="checkbox" id="manager">
-            </div> <br /> <br />
-            <div class="form-group">
-                Employment Type: 
-                <label for="time">Full Time</label>
-                <input type="checkbox" id="full">
-                <label for="time">Part Time</label>
-                <input type="checkbox" id="part">
-            </div>
-            <div class="form-group">
-                Gender: 
-                <label for="gender">Woman</label>
-                <input type="radio" name="gender" id="woman">
-                <label for="gender">Man</label>
-                <input type="radio" name="gender" id="man">
-            </div> <br />
-            <div class="form-group">
-                <label for="years">Years of Experience:</label>
-                <input id="years">
-            </div> 
-            <div class="form-group">
-                <label for="years">Resumé:</label>
-                <input type="file" id="resume">
-            </div> <br />
-            <div class="form-group">
-                <label for="textarea">Comments:</label>
-                <textarea name="comments"></textarea>
-            </div>
-            <br />
-            <input type="submit" />
-        </form> 
+    <div id="jobscontainer">
+    	<div id="mainjobs" class="col-md-offset-2 col-md-8" col-md-offset-2>
+    		<p>Are you a college student who would like a part-time job?<br />
+    		Apply at Marina Cafe – we will work around your schedule.
+    		Complete the infomration form at the right to get the application process started.<br />
+    		Or, if you prefer, stop by Marina Cafe anytime and ask about employment opportunities.<br />
+    		Marina Cafe is an equal opportunity employer.
+    		We celebrate the diversity of our associates!</p>
+    	</div>
+        <div>
+            <form class="form-inline" role="form">
+                <div class="form-group">
+                    <label for="name:">Name:</label>
+                    <input type="name" class="form-control" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email:">Email:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone:">Phone:</label>
+                    <input type="phone" class="form-control" id="phone">
+                </div> <br /> <br />
+                <div class="form-group jobs">
+                    Please select the roles you are interested in: <br />
+                    <label for="jobs">Bar Associate</label>
+                    <input type="checkbox" id="bar">
+                    <label for="jobs">Server</label>
+                    <input type="checkbox" id="server">
+                    <label for="jobs">Cleaning & Maintenance</label>
+                    <input type="checkbox" id="clean">
+                    <label for="jobs">Manager</label>
+                    <input type="checkbox" id="manager">
+                </div> <br /> <br />
+                <div class="form-group">
+                    Employment Type: 
+                    <label for="time">Full Time</label>
+                    <input type="checkbox" id="full">
+                    <label for="time">Part Time</label>
+                    <input type="checkbox" id="part">
+                </div>
+                <div class="form-group">
+                    Gender: 
+                    <label for="gender">Woman</label>
+                    <input type="radio" name="gender" id="woman">
+                    <label for="gender">Man</label>
+                    <input type="radio" name="gender" id="man">
+                </div> <br />
+                <div class="form-group">
+                    <label for="years">Years of Experience:</label>
+                    <input id="years">
+                </div> 
+                <div class="form-group">
+                    <label for="years">Resumé:</label>
+                    <input type="file" id="resume">
+                </div> <br />
+                <div class="form-group">
+                    <label for="textarea">Comments:</label>
+                    <textarea name="comments"></textarea>
+                </div>
+                <br />
+                <input type="submit" />
+            </form> 
+        </div>
+    </div>
 	<footer>
         <div class ="col-md-9" id="footer">
             <p>Copyright &copy; 2011 Marina Cafe</p>
