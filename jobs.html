@@ -30,33 +30,33 @@
             <form class="form-inline" action ="job_applications.php" method="post">
                 <div class="form-group col-sm-6">
                     Name: 
-                    <input class="form-control" id="name" required>
+                    <input class="form-control" id="name" name="name" required>
                 </div>
                 <div class="form-group col-sm-6">
                     Email:
-                    <input type="email" class="form-control" id="email" required>
+                    <input type="email" class="form-control" id="email" name="email" required>
                 </div>
                 <div class="form-group col-sm-6">
                     Phone:
-                    <input type="phone" class="form-control" id="phone" required>
+                    <input type="tel" class="form-control" id="phone" name="phone" required>
                 </div> <br /> <br />
-                <div class="form-group jobs  col-sm-12" required>
+                <div class="form-group jobs col-sm-12" required>
                     Please select the roles you are interested in: <br />
                     <label>Bar Associate</label>
-                    <input type="checkbox" id="bar">
+                    <input type="checkbox" id="bar" name="bar_associate">
                     <label>Server</label>
-                    <input type="checkbox" id="server">
+                    <input type="checkbox" id="server" name="server">
                     <label>Cleaning & Maintenance</label>
-                    <input type="checkbox" id="clean">
+                    <input type="checkbox" id="clean" name="cleaning_maintenance">
                     <label>Manager</label>
-                    <input type="checkbox" id="manager">
+                    <input type="checkbox" id="manager" name="manager">
                 </div> <br /> <br />
                 <div class="form-group col-md-4">
                     Employment Type: <br />
                     <label>Full Time</label>
-                    <input type="checkbox" id="full">
+                    <input type="checkbox" id="full" name="employment_type">
                     <label>Part Time</label>
-                    <input type="checkbox" id="part">
+                    <input type="checkbox" id="part" name="employment_type">
                 </div>
                 <div class="form-group col-md-4">
                     Gender: <br />
@@ -68,10 +68,14 @@
                 <div class="form-group col-md-4">
                     Years of Experience:
                     <br />
-                    <input id="years">
+                    <select name="years_of_experience">
+                        <option value="noexperience">No Experience</option>
+                        <option value="lessoneyear">Less than One Year</option>
+                        <option value="moreoneyear">More than One Year</option>
+                    </select>
                 </div> 
                 <br />
-                <div class="form-group" id="comments" >
+                <div class="form-group" id="comments">
                     Comments:
                     <br />
                     <textarea name="comments"></textarea>

@@ -8,8 +8,6 @@
 header {
     height: 200px;
     background-color: #170c08;
-   
-
 }
 
 nav a {
@@ -30,7 +28,6 @@ nav a:hover {
 
 nav {
     padding-bottom: 10px;
-
     font-size: 1.2em;
 }
 
@@ -126,13 +123,11 @@ nav {
 }
 
 .performancecontainer {
-    background: url('../Images/BackgroundPerformers.jpg');
-    
+    background: url('../Images/BackgroundPerformers.jpg');   
 }
 
 #performancetable {
-    background-color:rgba(255,255,255,0.75);
-  
+    background-color:rgba(255,255,255,0.75); 
 }
 
 .jobscontainer {
@@ -153,7 +148,10 @@ form{
 label {
     font-weight: normal;
 }
-
+div.jobs {
+    padding-top:10px;
+    padding-bottom: 10px;
+}
 textarea {
     width: 300px;
     height: 75px;
